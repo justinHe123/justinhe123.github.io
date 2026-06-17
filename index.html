@@ -22,8 +22,8 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">ABOUT</a>
                         </li>
-                        <!--<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">PROJECTS</a>
-                        </li>-->
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">PROJECTS</a>
+                        </li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">CONTACT</a>
                         </li>
                     </ul>
@@ -32,7 +32,7 @@
         </nav>
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5"src="assets/img/me.jpg" alt="">
+                <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5"src="assets/img/me.png" alt="">
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading mb-3">JUSTIN HE</h1>
                 <div class="col-lg-4 mb-5 mb-lg-0">
@@ -58,7 +58,7 @@
                 <!-- About Section Content-->
                 <div class="row">
                     <div class="col-lg-4 ml-auto">
-                        <p class="pre-wrap lead">Hi! I'm Justin, a Computer Science student at UCLA. In 2023, I will be interning at Citadel Securities as a Software Engineer in the summer. Previously, I've interned at Meta, Fwaygo (a music platform startup) and NurLabs (a medtech startup) in software roles. <!-- Check out some of my past projects below. --></p>
+                        <p class="pre-wrap lead">Hi! I'm Justin, a Software Engineer at Jane Street. I graduated from UCLA in 2024 with degrees in Computer Science and Applied Mathematics. Previously, I was a Software Engineer at Meta working on scam detection, and I've interned at Citadel Securities. <!-- Check out some of my past projects below. --></p>
                     </div>
                     <div class="col-lg-4 mr-auto">
                         <p class="pre-wrap lead">Academically, I am interested in systems and machine learning. <br/><br/> I am experienced in C++, Python, Go, Java, JavaScript, and SQL. Technologies I have used include Git, Docker, Google Cloud, Firebase, AWS, MySQL, PostgreSQL, NumPy, and PyTorch.</p>
@@ -92,7 +92,19 @@
                 </div>
                 <!-- Portfolio Grid Items -->
                 <div class="row justify-content-center">
-                    <!-- Portfolio Items -->
+                    <!-- Nephrology QA Paper -->
+                    <div class="portfolio py-0">
+                        <div class="portfolio-item py-1 px-5 border" data-toggle="modal" data-target="#portfolioModalNephrology">
+                            <div class="text-center">
+                                <i class="fas fa-file-alt fa-7x"></i>
+                                <h2>Nephrology QA Paper</h2>
+                            </div>
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Previous project cards (Roblox Reviews, WeChews, NoteGlobal) - commented out
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -100,7 +112,6 @@
                             </div><img class="img-fluid" src="assets/img/portfolio/RRSite.png" alt="Roblox Reviews"/>
                         </div>
                     </div>
-                    <!-- Portfolio Items -->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -108,7 +119,6 @@
                             </div><img class="img-fluid" src="assets/img/portfolio/WeChews.png" alt="WeChews"/>
                         </div>
                     </div>
-                    <!-- Portfolio Items -->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -116,6 +126,7 @@
                             </div><img class="img-fluid" src="assets/img/portfolio/NoteGlobal.png" alt="NoteGlobal"/>
                         </div>
                     </div>
+                    -->
                 </div>
             </div>
         </section>
@@ -146,8 +157,8 @@
                         </div>
                     </div>
                 </div>
-        <!-- Portfolio Modal-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal1Label" aria-hidden="true">
+        <!-- Portfolio Modal - Nephrology QA Paper-->
+        <div class="portfolio-modal modal fade" id="portfolioModalNephrology" tabindex="-1" role="dialog" aria-labelledby="#portfolioModalNephrologyLabel" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
@@ -156,8 +167,34 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">Roblox Reviews</h2>
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Nephrology QA Paper</h2>
                                     <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <p>GNN Integration to Knowledge Graph for a Nephrology QA System.</p>
+                                    <p><a href="nephrology_qa_paper.pdf" target="_blank">Open in New Tab</a></p>
+                                    <embed src="nephrology_qa_paper.pdf" width="800px" height="800px"/>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Previous project modals (Roblox Reviews, WeChews, NoteGlobal) - commented out
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Roblox Reviews</h2>
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
@@ -174,7 +211,6 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal-->
         <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal2Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
@@ -183,9 +219,7 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
                                     <h2 class="portfolio-modal-title text-secondary mb-0">WeChews</h2>
-                                    <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
@@ -212,7 +246,6 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal-->
         <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal3Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
@@ -221,9 +254,7 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
                                     <h2 class="portfolio-modal-title text-secondary mb-0">NoteGlobal</h2>
-                                    <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
@@ -240,6 +271,7 @@
                 </div>
             </div>
         </div>
+        -->
     </div>
         <section class="page-section" id="contact">
             <div class="container">
@@ -277,7 +309,7 @@
                     <!-- Footer Location-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="mb-4">LOCATION</h4>
-                        <p class="pre-wrap lead mb-0">Sunnyvale, CA</p>
+                        <p class="pre-wrap lead mb-0">New York, NY</p>
                     </div>
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
@@ -298,7 +330,7 @@
         </footer>
         <!-- Copyright Section-->
         <section class="copyright py-4 text-center text-white">
-            <div class="container"><small class="pre-wrap">Copyright © Justin He 2020 </small></div>
+            <div class="container"><small class="pre-wrap">Copyright © Justin He 2026 </small></div>
         </section>
         <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
         <div class="scroll-to-top d-lg-none position-fixed"><a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
